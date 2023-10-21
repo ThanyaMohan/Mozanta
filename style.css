@@ -1,0 +1,97 @@
+body {
+  box-sizing: border-box;
+}
+
+body.black-theme {
+  background-color: #000;
+  color: #fff;
+}
+
+body.black-theme h1,
+body.black-theme h2,
+body.black-theme h3,
+body.black-theme h4,
+body.black-theme h5,
+body.black-theme h6 {
+  color: #fff;
+}
+
+body.black-theme p,
+body.black-theme span,
+body.black-theme a {
+  color: #fff;
+}
+
+body.black-theme input,
+body.black-theme select,
+body.black-theme textarea {
+  background-color: #222;
+  color: #fff;
+}
+
+body.black-theme button {
+  background-color: #333;
+  color: #fff;
+}
+
+body.black-theme table {
+  border-color: #fff;
+}
+
+body.black-theme th,
+body.black-theme td {
+  border-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #007bff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background: #eee;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
